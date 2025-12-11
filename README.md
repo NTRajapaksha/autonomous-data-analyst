@@ -1,4 +1,4 @@
-# 📊 NexusAI: Autonomous Data Analyst Agent
+# 📊 Autonomous Data Analyst Agent
 
 ![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python)
 ![LangGraph](https://img.shields.io/badge/LangGraph-Cyclic_Agent-orange?style=for-the-badge)
@@ -13,7 +13,7 @@
 
 ## 🧠 System Architecture
 
-Unlike standard RAG chatbots, NexusAI operates on a **Cyclic Cognitive Architecture**. It uses a "Reason → Code → Observe → Fix" loop to solve complex data problems.
+Unlike standard RAG chatbots, this one operates on a **Cyclic Cognitive Architecture**. It uses a "Reason → Code → Observe → Fix" loop to solve complex data problems.
 
 ```mermaid
 graph TD
