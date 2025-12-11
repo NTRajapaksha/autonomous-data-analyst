@@ -70,7 +70,7 @@ graph TD
 
 2. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/autonomous-data-analyst.git
+git clone https://github.com/NTRajapaksha/autonomous-data-analyst.git
 cd autonomous-data-analyst
 ```
 
