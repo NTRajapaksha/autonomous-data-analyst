@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Data Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/styles/atom-one-dark.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="app-container">
+    <aside class="sidebar">
+        <div class="logo">
+            <i class="fa-solid fa-brain gradient-text"></i>
+            <span>Data Analyst<small>AI</small></span>
+        </div>
+
+        <div class="upload-zone">
+            <label for="file-upload" class="upload-btn">
+                <i class="fa-solid fa-cloud-arrow-up"></i>
+                <span>Upload CSV</span>
+            </label>
+            <input id="file-upload" type="file" accept=".csv"/>
+            <div id="file-status" class="file-status hidden">
+                <i class="fa-solid fa-file-csv"></i>
+                <span id="filename">data.csv</span>
+                <i class="fa-solid fa-check-circle success-icon"></i>
+            </div>
+        </div>
+
+        <div class="nav-menu">
+            <div class="menu-label">QUICK ACTIONS</div>
+            <button onclick="sendQuickMsg('Show first 5 rows')">
+                <i class="fa-solid fa-table"></i> Data Preview
+            </button>
+            <button onclick="sendQuickMsg('Check for missing values')">
+                <i class="fa-solid fa-magnifying-glass-chart"></i> Data Health
+            </button>
+            <button onclick="sendQuickMsg('Show correlation heatmap')">
+                <i class="fa-solid fa-chart-line"></i> Correlations
+            </button>
+        </div>
+
+        <div class="sidebar-footer">
+            <button class="clear-btn" onclick="clearChat()">
+                <i class="fa-regular fa-trash-can"></i> Clear History
+            </button>
+        </div>
+    </aside>
+
+    <main class="chat-interface">
+        <div id="chat-box" class="chat-box">
+            <div id="welcome-screen" class="welcome-container">
+                <div class="welcome-header">
+                    <h1>Autonomous Data Analyst</h1>
+                    <p>Upload a CSV file and ask me to analyze, clean, or visualize your data.</p>
+                </div>
+                <div class="cards-grid">
+                    <div class="card" onclick="sendQuickMsg('Plot the distribution of...')">
+                        <i class="fa-solid fa-chart-pie"></i>
+                        <h3>Visualization</h3>
+                        <p>Generate histograms, scatter plots, and heatmaps.</p>
+                    </div>
+                    <div class="card" onclick="sendQuickMsg('Calculate the average of...')">
+                        <i class="fa-solid fa-calculator"></i>
+                        <h3>Analysis</h3>
+                        <p>Perform aggregations, filtering, and statistical tests.</p>
+                    </div>
+                    <div class="card" onclick="sendQuickMsg('Clean this dataset by...')">
+                        <i class="fa-solid fa-wand-magic-sparkles"></i>
+                        <h3>Cleaning</h3>
+                        <p>Handle missing values and standardize formats.</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+
+        <div class="input-wrapper">
+            <div class="input-container">
+                <div class="typing-indicator hidden" id="typing-indicator">
+                    <span></span><span></span><span></span>
+                </div>
+                <input type="text" id="user-input" placeholder="Ask a question about your data..." autocomplete="off" onkeypress="handleEnter(event)">
+                <button id="send-btn" onclick="sendMessage()">
+                    <i class="fa-regular fa-paper-plane"></i>
+                </button>
+            </div>
+            <div class="footer-text">Powered by Gemini 2.5 Flash & LangGraph</div>
+        </div>
+    </main>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.7.0/highlight.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+# AI & Graph Framework
+langchain-google-genai
+langchain-core
+langgraph
+langchain-community
+
+# Data Science Stack
+pandas
+matplotlib
+seaborn
+tabulate
+
+# App Infrastructure
+streamlit
+python-dotenv
+
+python-multipart
+uvicorn
+fastapi

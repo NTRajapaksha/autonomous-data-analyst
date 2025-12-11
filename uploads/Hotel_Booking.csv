@@ -1,0 +1,51 @@
+Booking_ID,Lead_Time,Arrival_Date,Market_Segment,Avg_Daily_Rate,Special_Requests,Booking_Status
+H1001,12,2025-03-15,Online TA,89.50,1,Not_Canceled
+H1002,245,2025-09-22,Offline TA,145.30,2,Canceled
+H1003,8,2025-01-28,Direct,198.75,0,Not_Canceled
+H1004,34,2025-07-14,Corporate,165.20,1,Not_Canceled
+H1005,189,2025-08-09,Online TA,210.80,3,Canceled
+H1006,5,2025-02-11,Direct,112.40,2,Not_Canceled
+H1007,67,2025-06-03,Online TA,187.90,1,Not_Canceled
+H1008,178,2025-10-17,Offline TA,98.60,0,Canceled
+H1009,23,2025-04-22,Corporate,134.50,1,Not_Canceled
+H1010,41,2025-07-28,Direct,234.80,2,Not_Canceled
+H1011,3,2025-05-07,Online TA,156.30,0,Not_Canceled
+H1012,201,2025-11-30,Online TA,87.20,1,Canceled
+H1013,15,2025-08-16,Offline TA,198.45,3,Not_Canceled
+H1014,88,2025-03-09,Direct,145.90,1,Not_Canceled
+H1015,267,2025-12-05,Online TA,76.50,2,Canceled
+H1016,29,2025-06-19,Corporate,189.70,0,Not_Canceled
+H1017,156,2025-01-14,Offline TA,92.80,1,Canceled
+H1018,7,2025-07-03,Direct,223.60,2,Not_Canceled
+H1019,44,2025-09-11,Online TA,134.20,1,Not_Canceled
+H1020,192,2025-04-28,Online TA,118.90,0,Canceled
+H1021,18,2025-08-24,Corporate,201.30,1,Not_Canceled
+H1022,103,2025-02-17,Offline TA,87.40,2,Not_Canceled
+H1023,9,2025-06-25,Direct,245.80,3,Not_Canceled
+H1024,228,2025-10-08,Online TA,103.50,1,Canceled
+H1025,36,2025-05-19,Corporate,167.90,0,Not_Canceled
+H1026,174,2025-07-07,Offline TA,176.20,2,Canceled
+H1027,21,2025-03-24,Online TA,98.70,1,Not_Canceled
+H1028,51,2025-08-13,Direct,267.40,2,Not_Canceled
+H1029,288,2025-11-21,Online TA,82.30,0,Canceled
+H1030,14,2025-01-31,Corporate,121.60,1,Not_Canceled
+H1031,62,2025-06-11,Online TA,193.80,2,Not_Canceled
+H1032,183,2025-09-04,Offline TA,112.40,1,Canceled
+H1033,4,2025-07-21,Direct,229.50,3,Not_Canceled
+H1034,39,2025-04-15,Corporate,154.70,0,Not_Canceled
+H1035,211,2025-12-18,Online TA,69.90,1,Canceled
+H1036,26,2025-02-26,Offline TA,95.80,2,Not_Canceled
+H1037,78,2025-08-02,Direct,241.20,1,Not_Canceled
+H1038,165,2025-05-29,Online TA,128.60,0,Canceled
+H1039,11,2025-06-30,Corporate,198.40,2,Not_Canceled
+H1040,48,2025-10-13,Offline TA,106.30,1,Not_Canceled
+H1041,234,2025-03-07,Online TA,91.50,0,Canceled
+H1042,6,2025-07-18,Direct,254.90,3,Not_Canceled
+H1043,93,2025-01-22,Online TA,84.20,1,Not_Canceled
+H1044,158,2025-09-16,Offline TA,121.70,2,Canceled
+H1045,31,2025-08-08,Corporate,187.60,0,Not_Canceled
+H1046,72,2025-04-11,Direct,163.40,1,Not_Canceled
+H1047,197,2025-11-02,Online TA,94.80,2,Canceled
+H1048,17,2025-06-07,Offline TA,172.50,1,Not_Canceled
+H1049,54,2025-07-26,Direct,238.70,2,Not_Canceled
+H1050,219,2025-02-19,Online TA,78.60,0,Canceled
